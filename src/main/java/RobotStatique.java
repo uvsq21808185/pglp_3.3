@@ -8,7 +8,7 @@ public class RobotStatique {
 	 * 
 	 */
 	public RobotStatique(int position) {
-		this.position=position;
+		this.setPosition(position);
 	}
 	/* Le robot statique ne peut pas avancer donc renvoyer une exception
 	 * 
@@ -21,5 +21,11 @@ public class RobotStatique {
 	 * puisque le robet n'avance pas donc on peut créer une méthode vide
 	 */
 	public void avance2() {
+	}
+	public int getPosition() {
+		return position;
+	}
+	public void setPosition(int position) {
+		this.position = position;
 	}
 }
