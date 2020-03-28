@@ -10,7 +10,13 @@ public class Robot {
 	
 	public void avance()
 	{
-		this.position+=10;
+		this.position+=100;
+		
+	}
+	
+	public void avancerTous()
+	{
+		System.out.println("Le robot avance/vole plus vite :) !");
 		
 	}
 	
