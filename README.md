@@ -94,7 +94,7 @@ Ce qui entraine qu'on ne peut pas remplacer une instance de robot par robotStati
 	}
 }
 
-- puis créons une classe Robot_Lent (un type de robot) qui hérite de la classe ou l'interface Robot :
+-Puis créons une classe Robot_Lent (un type de robot) qui hérite de la classe ou l'interface Robot :
 
 public class Robot_Lent extends Robot {
 	/*
@@ -107,14 +107,15 @@ public class Robot_Lent extends Robot {
 	/*
 	 * Une méthode pour que le robot avance lentement ( 2 au lieu de 100)
 	 */
-public void avance()
-{
-	super.position+=2;
-}
 
-}
+	public void avance()
+	{
+		super.position+=2;
+	}
 
-- puis créons une deuxième classe classe Robot_volant (un autre type de robot) qui hérite aussi de la classe ou l'interface Robot :
+	}
+
+-Ensuite créons une deuxième classe classe Robot_volant (un autre type de robot) qui hérite aussi de la classe ou l'interface Robot :
 
 
 public class Robot_volant extends Robot{
